@@ -285,175 +285,135 @@ Placement of Decoys and arbitrary surfaces are done by the referees. Decoys coul
 
 The Objects in \RCAW include a wide range of Objects relevant in industrial applications of robotics. They eventually cover any raw material, (semi-)finished parts or products as well as tools and possibly operating materials required for manufacturing processes. Object types are selected by the TC and shall vary in complexity due to different shapes, colors and uses of objects. Currently there are three sets of Objects used in the competition: Basic, Advanced and April Tagged. The following sections provide details about those sets. The exact appearance of the object used in the competition can slightly vary due to availability, e.g. different coating colors for some standard parts.
 
-\subsection{Basic Object Set}
+\subsection{Object Set}
 
-The Basic Object Set includes standard profile rails, screws and nuts with various sizes and masses.
+The Object Set includes includes grapes found inside the vine section of the arena and covers ten different fruits and vegetables that can be found in an agricultural setting. The objects are life-size but fake and may weigh or feel different from a real object. The tolerance for fruits and vegetables is vast, just as in real life. The same objects may be bigger or smaller and heavier or lighter. 
 % (see table~\ref{tab:manipulation_objects}).
 
 \newcommand{\imageView}[1]{\includegraphics[width=2cm, valign=c]{#1}}
 \newcommand{\rowpadding}{0.4cm}
 \setlength\extrarowheight{\rowpadding}
 
-
 \begin{table}[h!]
 
-\begin{tabular}{|c|c|c|c|m{8cm}|}
-\hline
-ID & Object & Symbolic Description & Mass & Details \\
-\hline
-
-\texttt{1} & \imageView{./images/F20_20_B.jpg} & \texttt{F20\_20\_B} & 49 g & Small aluminium profile \newline
- Coating/Colour: black anodized\newline
- Size: $20 \times 20 \times 100 mm$ \\ [\rowpadding]
-\hline
-
-\texttt{2} & \imageView{./images/F20_20_G.jpg} & \texttt{F20\_20\_G} & 49 g & Small aluminium profile \newline
- Coating/Colour: gray anodized\newline
- Size: $20 \times 20 \times 100 mm$ \\ [\rowpadding]
-\hline
-
-\texttt{3} & \imageView{./images/S40_40_B.jpg} & \texttt{S40\_40\_B} & 186 g & Large aluminium profile\newline
- Coating/Colour: black anodized\newline
- Size: $40 \times 40 \times 100 mm$ \\ [\rowpadding]
-\hline
-
-\texttt{4} & \imageView{./images/S40_40_G.jpg} & \texttt{S40\_40\_G} & 186 g & Large aluminium profile \newline
- Coating/Colour:  gray anodized\newline
- Size: $40 \times 40 \times 100 mm$ \\[\rowpadding]
-\hline
-
-\texttt{5} & \imageView{./images/M20_100.jpg} & \texttt{M20\_100} & 296 g & Screw\newline
- ISO4014, DIN 931, EU 24014 \newline
- Coating/Colour: blank, black burnished \newline
- Size: M$20\times 100$ \\ [\rowpadding]
-\hline
-
-\texttt{6} & \imageView{./images/M20.jpg} & \texttt{M20} & 56 g & Small nut\newline
- ISO4032, DIN934, EU 24032  \newline
- Coating/Color: blank, black burnished \newline
- Size: M20 \\ [\rowpadding]
-\hline
-
-\texttt{7} & \imageView{./images/M30.jpg} & \texttt{M30} & 217 g & Large nut\newline
- ISO4032, DIN934, EU 24032  \newline
- Coating/Color: blank, black burnished \newline
- Size: M30 \\ [\rowpadding]
- \hline
-\end{tabular}
-\caption{\RCAW Basic Object Set}
-\label{tab:manipulation_objects}
-\end{table}
-
-\clearpage
-
-\clearpage
-\subsection{Advanced Object Set}
-
-
-For 2023, the RoCKIn object set (see 2022 rulebook or previous ones) is replaced by a selection of better available parts for a drive train, as well as some tools (see Section~\ref{sec:new_objects}). The new object set was introduced in a technical challenge in 2022 and is called Advanced Object Set.
-
-\begin{table}[h!]
-	\begin{tabular}{|c|m{2cm}|c|c|m{8cm}|}
-		\hline
-		ID & Object & Symbolic Description & Mass & Details \\
-		\hline
-%%%%%%%%%%%%%
-		\texttt{20} & \imageView{./images/newObjects/welle3d.jpg} \newline
-		\imageView{./images/newObjects/welleSchematic.JPG}
-		& \texttt{Axis2} & 180 g & Steel axis \newline
-		Misumi: SFUB25-25-F28-P17-T15-S10-Q20 \newline
-		Coating/Colour: blank, black burnished \newline
-		Length: 68 mm \newline
-		Diameter: 17mm, M20 \newline
-		%see Figure~\ref{fig:welle2Schematic} \newline
-		
-		\href{https://de.misumi-ec.com/vona2/detail/110302635710/?CategorySpec=00000146753%3a%3ab%2cc}{Misumi} (visited Januar 2022)\\
-
-			\hline
-%%%%%%%%%%%%
-		\texttt{21} & \imageView{./images/newObjects/bearing2.JPG} & \texttt{Bearing2} & 100 g & Bearing \newline 
-		SKF YAR203-2F\newline
-		Coating/Colour: gray \newline
-		Useable with housing\newline
-		\href{https://www.skf.com/sg/products/rolling-bearings/ball-bearings/insert-bearings/productid-YAR%20203-2F}{SKF}  (visited Januar 2022)\\
-		\hline
-%%%%%%%%%%%%				
-		\texttt{22} & \imageView{./images/newObjects/housing.JPG} & \texttt{Housing} & 60 g & Housing \newline 
-		SKF P40\newline
-		Coating/Colour: gray \newline
-		Useable with bearing\newline
-		\textbf{Remark:} needs two hex socket screw M8x10 (ISO 4762, DIN 912) and two M8 nuts (ISO 4032, DIN 934) \newline
-		\href{https://www.skf.com/sg/products/mounted-bearings/ball-bearing-units/pillow-block-ball-bearing-units/productid-P%2040}{SKF}  (visited Januar 2022)\\
-		\hline
-%%%%%%%%%%%%	
-		\texttt{23} & \imageView{./images/newObjects/motor.JPG} & \texttt{Motor2} & 350g & Motor 755\newline
-		Coating/Colour: gray \newline
-		Size: $66.7 \times 42.0 \si{\milli\meter}$\newline
-		Diameter: $d_{axis}=5\si{\milli\meter}$, $l_{axis}=10\si{\milli\meter}$ \newline
-		\href{https://www.amazon.de/EsportsMJJ-12V-36V-3500-9000Rpm-Drehmoment-Hochleistungsmotor/dp/B075D85KVV}{Amazon}  (visited Januar 2022)\\
-		\hline
-%%%%%%%%%%%%					
-		\texttt{24} & \imageView{./images/newObjects/FlangedResinCollar.JPG} & \texttt{Spacer} &  & Flanged Spacer\newline
-		Misumi CLJHJ25-30-70  \newline
-		Coating/Colour: white \newline
-		Size: $70\si{\milli\meter}$\newline
-		Diameter: $d_{inner}=25\si{\milli\meter}$, $d_{outer}=30\si{\milli\meter}$ \newline
-		\href{https://us.misumi-ec.com/vona2/detail/110300236450/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300236450%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%2200000042362%22%3a%22mig00000001500952%22%2c%2200000042368%22%3a%22b%22%2c%22jp000157843%22%3a%22mig00000000344081%22%2c%22jp000157846%22%3a%22mig00000001417174%22%2c%22jp000157851%22%3a%22mig00000000344088%22%2c%2200000334029%22%3a%2230%22%2c%2200000334032%22%3a%2270%22%2c%22typeCode%22%3a%22CLJHJ%22%2c%22fixedInfo%22%3a%22MDM0000085422111030023645020110476153310093415426696895%7c14%22%7d&Tab=preview}{Misumi}  (visited Januar 2022)\\
-						\hline
-
-\end{tabular}
-\caption{Advanced Object Set - Part 1}
-\label{tab:new_objects1}
-\end{table}
-
-
-\begin{table}[h!]
-	\begin{tabular}{|c|m{2cm}|c|c|m{8cm}|}
-		\hline
-		ID & Object & Symbolic Description & Mass & Details \\
-		\hline
-		%%%%%%%%%%%%
-		\texttt{25} & \imageView{./images/newObjects/weraScrewdriver.jpg} & \texttt{Screwdriver } & 19g & WERA 352 \newline
-		Ball end screwdriver,hexagon socket screws\newline
-		Coating/Colour: black/green \newline
-		Size: $181\si{\milli\meter}$\newline
-		Diameter: $d_{tip}=2.5\si{\milli\meter}$\newline
-		Code: 05138070001\newline
-		\href{https://www.amazon.de/Wera-05138070001-352-Sechskant-Kugelkopf-Schraubendreher-2-5/dp/B00154ZWFI?th=1}{Amazon}  (visited Januar 2022)\\
-		\hline
-		%%%%%%%%%%%%			
-		\texttt{26} & \imageView{./images/newObjects/weraWrench.jpg} & \texttt{Wrench } & ca. 72g & WERA Jocker 6000, 8mm \newline
-		Ratcheting combination wrenches\newline
-		Coating/Colour: silver/grey/pink \newline
-		Size: ca. $144\si{\milli\meter}$\newline
-		Diameter: $d_{max}=20\si{\milli\meter}$\newline
-		Code: 05073268001\newline
-		\href{https://www.amazon.de/Wera-05073268001-Joker-Maul-Ringratschen-Schl%C3%BCssel/dp/B00BT0GBMG?th=1}{Amazon} (visited Januar 2022)\\
-		\hline
-		%%%%%%%%%%%%
-		\texttt{27} & \imageView{./images/newObjects/hsscoDIN338metaldrill.jpg} & \texttt{Drill } & ca. 10g & Bosch Drill HSS-Co DIN338  \newline
-		Drill\newline
-		Coating/Colour: gold/ Cobalt alloy \newline
-		Length: ca. $151\si{\milli\meter}$\newline
-		Diameter: $d_{max}=13\si{\milli\meter}$\newline
-		Code: 3165140382724 \newline
-		\href{https://www.amazon.com/Bosch-2609255086-Metal-Drill-HSS-Co/dp/B0071OSFQY}{Amazon} (visited Januar 2022)\\
-		\hline
-		%%%%%%%%%%%
-		\texttt{28} & \imageView{./images/newObjects/weraAllenKey.jpg} & \texttt{AllenKey } & ca. 10g & Wera Allen Key 8mm,\newline
-		3950 PKL L-key, metric, stainless\newline
-		Coating/Colour: silver \newline
-		Length: ca. $195\si{\milli\meter} \times 37\si{\milli\meter}$\newline
-		Diameter: $d_{max}=8\si{\milli\meter}$\newline
-		Code: 05022708001 \newline
-		\href{https://www.amazon.co.uk/Wera-WER022708-Hexagon-Keys-Multi-Colour/dp/B00A8QXTNG}{Amazon} (visited Januar 2022)\\
-		\hline
-		%%%%%%%%%%%
+	\begin{tabular}{|c|c|c|c|m{8cm}|}
+	\hline
+	ID & Object & Symbolic Description & Mass & Details \\
+	\hline
 	
-\end{tabular}
-\caption{\RCAW Advanced Object Set - Part 2}
-\label{tab:new_objects2}
-\end{table}
+	\texttt{1} & \imageView{./images/Grapes.png} & \texttt{Grapes\_Red} & 25 - 29 g & Grape Cluster \newline
+	 Coating/Colour: Red\newline
+	 Size: $140 \times 60 \times 40 mm$ \\ [\rowpadding]
+	\hline
+	
+	\texttt{2} & \imageView{./images/Grapes.png} & \texttt{Grapes\_Green} & 25 - 29 g & Grape Cluster \newline
+	 Coating/Colour: Green\newline
+	 Size: $140 \times 60 \times 40 mm$ \\ [\rowpadding]
+	\hline
+	
+	\texttt{3} & \imageView{./images/Grapes.png} & \texttt{Grapes\_Yellow} & 25 - 29 g & Grape Cluster \newline
+	 Coating/Colour: Yellow\newline
+	 Size: $140 \times 60 \times 40 mm$ \\ [\rowpadding]
+	\hline
+
+	\texttt{4} & \imageView{./images/ADV_APPLE.jpg}
+	& \texttt{Apple} & 23 g & Simulated Apple \newline
+	Coating/Colour: Green \newline
+	Height: 70 mm \newline
+	Diameter: 80 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{5} & \imageView{./images/ADV_BANANA.jpg}
+	& \texttt{Banana} & 26 g & Simulated Banana \newline
+	Coating/Colour: Yellow \newline
+	Height: 100 mm \newline
+	Length: 190 mm \newline
+	Diameter: 40 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{6} & \imageView{./images/ADV_CHILI_PEPPER.jpg}
+	& \texttt{Chili\_Pepper} & 10 - 14 g & Simulated Chili Pepper \newline
+	Coating/Colour: Red, Green \newline
+	Height: 35 - 42 mm \newline
+	Length: 148 - 188 mm \newline
+	Diameter: 25 - 35 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\end{tabular}
+	\caption{\RCAW Object Set - Part 1}
+	\label{tab:objects1}
+	\end{table}
+
+\begin{table}[h!]
+
+	\begin{tabular}{|c|c|c|c|m{8cm}|}
+	\hline
+	ID & Object & Symbolic Description & Mass & Details \\ [\rowpadding]
+	\hline
+
+	\texttt{7} & \imageView{./images/ADV_GARLIC.jpg}
+	& \texttt{Garlic} & 9 - 13 g & Simulated Garlic \newline
+	Coating/Colour: White, Purple(sometimes) \newline
+	Height: 73 mm \newline
+	Diameter: 60 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{8} & \imageView{./images/ADV_KIWI.jpg}
+	& \texttt{Kiwi} & 8 g & Simulated Kiwi \newline
+	Coating/Colour: Brown \newline
+	Height: 70 mm \newline
+	Diameter: 62 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{9} & \imageView{./images/ADV_LIME.jpg}
+	& \texttt{Lime} & 20 g & Simulated Lime \newline
+	Coating/Colour: Green \newline
+	Height: 93 mm \newline
+	Diameter: 65 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{10} & \imageView{./images/ADV_MANGOSTEEN.jpg}
+	& \texttt{Mangosteen} & 13 - 19 g & Simulated Mangosteen \newline
+	Coating/Colour: Purple, Green \newline
+	Height: 75 mm \newline
+	Diameter: 60 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{11} & \imageView{./images/ADV_ORANGE.jpg}
+	& \texttt{Orange} & 24 g & Simulated Orange \newline
+	Coating/Colour: Orange \newline
+	Height: 70 mm \newline
+	Diameter: 80 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{12} & \imageView{./images/ADV_PEACH.jpg}
+	& \texttt{Peach} & 8 - 16 g & Simulated Peach \newline
+	Coating/Colour: Red, Orange, Pink \newline
+	Height: 70 mm \newline
+	Diameter: 82 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\texttt{13} & \imageView{./images/ADV_POMEGRANATE.jpg}
+	& \texttt{Pomegranate} & 16 - 19 g & Simulated Pomegranate \newline
+	Coating/Colour: Red, Yellow \newline
+	Height: 95 mm \newline
+	Diameter: 78 mm \newline
+	\\ [\rowpadding]
+	\hline
+
+	\end{tabular}
+	\caption{Object Set - Part 2}
+	\label{tab:objects1}
+	\end{table}
 
 \clearpage
 
@@ -464,6 +424,8 @@ For 2023, the RoCKIn object set (see 2022 rulebook or previous ones) is replaced
 For the season 2023 and onwards, 3D printed cubes marked with April tags might be used in the competition. 
 This should allow teams to focus on other areas than object recognition by simplifying the detection of Objects. 
 These cubes will be called April Tag Tagged Cubes (ATTC) in the following.
+
+For the season 2025 and onwards, April tags will also indicate the location where objects must be placed. Holders for the April tags will be located in the arena to designate where the object will be placed. The April tag inside the holders is dynamic and can change from run to run. 
 
 The April Tags used in \RCAW measure $40 \si{\milli\meter} \times 40 \si{\milli\meter}$ and have an encoding taken from the \textit{36h11} April Tag family, including a 1bit black and 1bit white border as shown in fig. \ref{fig:singleAprilTag}. 
 
